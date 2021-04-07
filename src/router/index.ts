@@ -12,10 +12,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     component: Layout,
     redirect: '/dashboard',
-    children:[
+    children: [
       {
-        path:'dashboard',
-        name:'Dashboard',
+        path: 'dashboard',
+        name: 'Dashboard',
         component: () => import(/* webpackChunkName: "dashboard" */'@/views/dashboard/Index.vue'),
         meta: {}
       }

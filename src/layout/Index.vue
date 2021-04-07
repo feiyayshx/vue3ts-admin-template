@@ -1,10 +1,16 @@
 <template>
     <div class="app-wrapper">
-
+        <the-sidebar></the-sidebar>
     </div>
 </template>
 <script lang="ts">
-export default {}
+import { TheSidebar } from './components/index'
+
+export default {
+  components: {
+    TheSidebar
+  }
+}
 </script>
 <style lang="scss" scoped>
 .app-wrapper {
