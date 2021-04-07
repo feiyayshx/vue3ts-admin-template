@@ -4,9 +4,7 @@
       :uniqueOpened="true"
       default-active="2"
       class="el-menu-vertical-demo"
-      @open="handleOpen"
-      @close="handleClose"
-      background-color="#545c64"
+      :background-color="variables.menuBg"
       text-color="#fff"
       active-text-color="#ffd04b">
       <el-submenu index="1">
@@ -67,5 +65,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-
+.el-menu-vertical-demo {
+  height:100%;
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="app-wrapper">
-        <the-sidebar></the-sidebar>
+        <the-sidebar class="sidebar-container"></the-sidebar>
     </div>
 </template>
 <script lang="ts">
@@ -17,5 +17,10 @@ export default {
     width: 100%;
     height:100%;
     position:relative;
+    .sidebar-container {
+      width:$sideBarWidth;
+      height:100%;
+      overflow: hidden;
+    }
 }
 </style>
