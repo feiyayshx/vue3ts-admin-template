@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import loadPlugins from '@/plugins'
+
+import '@/styles/index.scss'
+
 const app = createApp(App)
 
 loadPlugins(app)
