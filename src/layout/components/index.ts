@@ -1,2 +1,2 @@
 
-export { default as TheSidebar } from './sidebar/Index.vue'
+export { default as TheSidebar } from './the-sidebar/Index.vue'

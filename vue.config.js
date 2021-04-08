@@ -18,7 +18,8 @@ module.exports = {
     return {
       resolve: {
         alias: {
-          '@': resolve('src')
+          '@': resolve('src'),
+          'mock': resolve('mock')
         }
       }
     }
